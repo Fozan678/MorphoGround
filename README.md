@@ -10,9 +10,6 @@ This repository contains:
 - **The complete results of the reported run.** Verdicts, summaries and predictions; no images.
 - **The CVPR-style paper.** Every number in it is generated from those results by a script.
 
-<p align="center"><img src="paper/figures/evidence_maps_top3.jpg" width="620"><br>
-<em>Criterion evidence maps (EXP / ICM / TE) on gold-test embryos.</em></p>
-
 ## Method in one paragraph
 A DINOv2 ViT-B/14 encodes the image into patch tokens. Six learned morphology queries read the patches, and a relational transformer mixes them with the global token. One single-head query per Gardner criterion then reads the tokens. It feeds a CORN ordinal head and yields an intrinsic evidence map.
 
@@ -120,10 +117,6 @@ cd paper && latexmk -pdf main.tex
 The compiled paper is at `paper/MorphoGround_paper.pdf`.
 
 ## Citation
-If you use this code, please cite the paper (see `CITATION.cff`) and the dataset:
-> Kromp F. et al. An annotated human blastocyst dataset to benchmark deep learning architectures for in vitro fertilization. *Scientific Data* 10, 271 (2023).
 
 ## Licence
-- **Code:** MIT (see `LICENSE`).
-- **Dataset images:** not included. Figures in `paper/figures/` show example images from the Kromp et al. dataset for illustration, subject to that dataset's licence.
-- **Clinical use:** this is research software. It is **not** a medical device and must not be used for clinical embryo selection.
+
