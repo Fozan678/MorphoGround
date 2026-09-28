@@ -1,0 +1,34 @@
+# ---- data, caches and model weights: never commit (dataset licence, size limits)
+Images/
+cache/
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+Embryo_Updated_Project_*.zip
+# ---- secrets (the upload script also scans file contents for tokens)
+.env
+*.secret
+hf_token.txt
+github_token.txt
+# ---- Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+run_logs/
+# ---- LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+paper/main.pdf
+# ---- OS
+.DS_Store
+Thumbs.db

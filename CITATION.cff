@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, and cite the Kromp et al. (2023) dataset."
+title: "MorphoGround: Grounded, Ordinal and Reliable Human Blastocyst Grading under Noisy and Imbalanced Labels"
+type: software
+authors:
+  - family-names: Rizwan
+    given-names: Muhammad
+    affiliation: "Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology (PAF-IAST)"
+    orcid: "https://orcid.org/0009-0004-9735-1743"
+license: MIT
+version: "2.0.0"
+date-released: "2026-09-28"
+keywords:
+  - embryo grading
+  - blastocyst
+  - Gardner grading
+  - IVF
+  - ordinal regression
+  - explainable AI
+  - conformal prediction
+references:
+  - type: article
+    authors:
+      - family-names: Kromp
+        given-names: Florian
+    title: "An annotated human blastocyst dataset to benchmark deep learning architectures for in vitro fertilization"
+    journal: "Scientific Data"
+    volume: 10
+    start: 271
+    year: 2023
+    doi: "10.1038/s41597-023-02182-3"
